@@ -24,8 +24,6 @@ public class Main {
         thread3.start();
         thread4.start();
 
-  /* Here thread 5 have to wait because of the
-     other threads */
         thread5.run();
 
         System.out.println("Parent thread execution completes");
